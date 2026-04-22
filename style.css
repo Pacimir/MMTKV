@@ -1,0 +1,90 @@
+/* osnovno */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+}
+
+/* header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+/* studenti sekcija */
+.studenti {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* kartica */
+.kartica {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 350px;
+    margin: 10px;
+    padding: 15px;
+}
+
+/* kartica info */
+.karticainfo {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 1000px;
+    margin: 10px;
+    padding: 15px;
+}
+
+/*gif */
+.gif {
+    display: block;
+    margin: 0 auto;
+}
+
+/* slike */
+.kartica img {
+    width: 20%;
+    height: auto;
+}
+
+/* naslovi */
+h2 {
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* liste */
+ul {
+    padding-left: 20px;
+}
+
+/* linkovi */
+a {
+    color: #1a0dab;
+}
+
+a:hover {
+    color: #c0392b;
+}
+
+/* kolege */
+.kolege {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+/* footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
