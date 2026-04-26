@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 /* osnovno */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 body {
     font-family: Verdana, sans-serif;
     background-color: #eaeaea;
     margin: 0;
 }
 
+<<<<<<< HEAD
 /* header */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 header {
     background-color: #2c3e50;
     color: white;
@@ -13,14 +19,20 @@ header {
     text-align: left;
 }
 
+<<<<<<< HEAD
 /* studenti sekcija */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 .studenti {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
 }
 
+<<<<<<< HEAD
 /* kartica */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 .kartica {
     background-color: white;
     border: 1px solid #ccc;
@@ -29,7 +41,10 @@ header {
     padding: 15px;
 }
 
+<<<<<<< HEAD
 /* kartica info */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 .karticainfo {
     background-color: white;
     border: 1px solid #ccc;
@@ -38,13 +53,19 @@ header {
     padding: 15px;
 }
 
+<<<<<<< HEAD
 /*gif */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 .gif {
     display: block;
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /* slike */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 .kartica img {
     width: 20%;
     height: auto;
@@ -75,13 +96,19 @@ a:hover {
     color: #c0392b;
 }
 
+<<<<<<< HEAD
 /* kolege */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 .kolege {
     padding: 20px;
     background-color: #ddd;
 }
 
+<<<<<<< HEAD
 /* footer */
+=======
+>>>>>>> 7ffb3a0 (finalna verzija)
 footer {
     background-color: #2c3e50;
     color: white;
