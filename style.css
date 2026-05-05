@@ -79,3 +79,33 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+.galerija {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.galerija img {
+    width: 220px;
+    height: 350px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.galerija button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.galerija button:hover {
+    background-color: #c0392b;
+}

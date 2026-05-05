@@ -59,6 +59,16 @@
         <video controls width="100%">
             <source src="FilipVideo.mp4" type="video/mp4">
         </video>
+
+        <h3>Nadraže serije</h3>
+        <div class="galerija">
+        <button class="prev" onclick="promijeniSliku('filip', -1)">&#10094;</button>
+
+        <img id="filip-galerija" src="sopranos.gif" alt="Filip galerija">
+
+        <button class="next" onclick="promijeniSliku('filip', 1)">&#10095;</button>
+        </div>
+
     </div>
 
     <div class="kartica">
@@ -96,6 +106,17 @@
         <video controls width="100%">
             <source src="Sisak.mp4" type="video/mp4">
         </video>
+
+        <h3>Najdraži filmovi</h3>
+        <div class="galerija">
+       <button onclick="promijeniSliku('patrik', -1)">&#10094;</button>
+    
+        <div class="slider">
+           <img id="patrik-galerija" src="johnwick.gif" alt="Patrik galerija">
+        </div>
+    
+        <button onclick="promijeniSliku('patrik', 1)">&#10095;</button>
+</div>
     </div>
 
     <div class="karticainfo">
@@ -143,6 +164,32 @@
         - <a href="https://www.ferit.unios.hr/" target="_blank">FERIT</a>
     </p>
 </footer>
+
+<script>
+    const galerije = {
+        filip: ["sopranos.gif", "breakingbad.png", "saul.jpg", "mrrobot.bmp"],
+        patrik: ["johnwick.gif", "tag.png", "oldboy.jpg", "deadpool.bmp"]
+    };
+
+    const indeksi = {
+        filip: 0,
+        patrik: 0
+    };
+
+    function promijeniSliku(student, smjer) {
+        indeksi[student] += smjer;
+
+        if (indeksi[student] < 0) {
+            indeksi[student] = galerije[student].length - 1;
+        }
+
+        if (indeksi[student] >= galerije[student].length) {
+            indeksi[student] = 0;
+        }
+
+        document.getElementById(student + "-galerija").src = galerije[student][indeksi[student]];
+    }
+</script>
 
 </body>
 </html>
